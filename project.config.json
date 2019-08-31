@@ -1,0 +1,79 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx30e55cdda31ee44b",
+	"projectname": "YecMusic",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/artist-detail/main",
+					"pathName": "pages/artist-detail/main",
+					"query": "id=5781",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/album-detail/main",
+					"pathName": "pages/album-detail/main",
+					"query": "id= 79609156",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/playing/main",
+					"pathName": "pages/playing/main",
+					"query": "id=1369798757",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/search-list/main",
+					"pathName": "pages/search-list/main",
+					"query": "keywords=\"芒种\"",
+					"scene": null
+				}
+			]
+		}
+	}
+}

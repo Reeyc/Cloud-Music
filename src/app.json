@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/profile/main",
+    "pages/search-list/main",
+    "pages/artist-detail/main",
+    "pages/album-detail/main",
+    "pages/playlist-detail/main",
+    "pages/playing/main"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "Cloud Music",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#d43c33",
+    "borderStyle": "white",
+    "list": [{
+      "text": "乐库",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/index.png",
+      "selectedIconPath": "static/images/index-active.png"
+    }, {
+      "text": "",
+      "pagePath": "pages/index/main"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/profile/main",
+      "iconPath": "static/images/profile.png",
+      "selectedIconPath": "static/images/profile-active.png"
+    }]
+  },
+  "usingComponents": {
+    "van-search": "static/vant/dist/search/index",
+    "van-icon": "static/vant/dist/icon/index",
+    "van-tab": "static/vant/dist/tab/index",
+    "van-tabs": "static/vant/dist/tabs/index",
+    "van-notice-bar": "static/vant/dist/notice-bar/index",
+    "van-progress": "static/vant/dist/progress/index"
+  }
+}

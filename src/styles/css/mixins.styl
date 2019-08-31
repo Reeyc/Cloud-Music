@@ -1,0 +1,11 @@
+ellipsis($rows)
+  if ($rows == 1)
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+  else
+    overflow: hidden
+    text-overflow: ellipsis
+    display: -webkit-box
+    -webkit-line-clamp: $rows
+    -webkit-box-orient: vertical
